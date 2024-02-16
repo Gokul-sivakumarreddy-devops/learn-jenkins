@@ -15,7 +15,7 @@ pipeline {
         }
         
 
-    tage('Deploy') {
+    stage('Deploy') {
             steps {
                 echo 'Hello World'
             }
